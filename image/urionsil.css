@@ -1,0 +1,524 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+
+@media (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+        justify-content: center;
+        display: flex;
+        position: absolute;   
+        margin-left: 10%;
+    }
+
+    .p1{
+        font-size: 50px;
+        top: 1630px;
+        color: white;
+        display: flex;
+        position: absolute;
+        margin-left: 400px;
+    }
+
+}
+
+
+#container{
+    justify-content: center;
+    position: absolute;
+    left: 1000px;
+    top: 700px;
+    width: 100%;
+    height: 360px;
+}
+
+.box{
+    justify-content: center;
+    width: 1959px;
+    height: 360px;
+    display: flex;
+}
+
+.title{
+    position: absolute;
+    width: 100%;
+}
+
+.title2{
+    position: absolute;
+    left: 100%;
+    width: 100%;
+}
+
+.textAniA{
+    animation: moveLeft 10s linear 0s infinite;
+}
+
+@keyframes moveLeft{
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.Box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 745px;
+}
+
+p1{
+    font-size: 30px;
+    top: 1630px;
+    color: white;
+    display: flex;
+    position: absolute;
+    margin-left: 100px;
+}
+
+
+#glass1{
+    width: 460px;
+    height: 426px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top: 1180px;
+    margin-left: 600px;
+}
+
+#glass2{
+    width: 679px;
+    height: 731px;
+    display: flex;
+    position: absolute;
+    top: 1470px;
+    margin-left: -450px;
+}
+
+p2{
+    font-size: 30px;
+    font-family:fantasy;
+    top: 2250px;
+    color: white;
+    display: flex;
+    position: absolute;
+    margin-left: 80px;
+}
+
+#glass3{
+    width: 766px;
+    height: 643px;
+    display: flex;
+    position: absolute;
+    top: 2660px;
+    margin-left: 300px;
+}
+
+p3{
+    font-size: 30px;
+    font-family:fantasy;
+    top: 3000px;
+    color: white;
+    display: flex;
+    position: absolute;
+    margin-left: 80px;
+}
+
+#glass4{
+    width: 507px;
+    height: 464px;
+    display: flex;
+    position: absolute;
+    top:3380px;
+    margin-left: -400px;
+}
+
+#main{
+    width: 787px;
+    height: 1176px;
+    display: flex;
+    position: absolute;
+    top: 4260px;
+    margin-left: -50px;
+}
+#main2{
+    width: 888px;
+    height: 801px;
+    display: flex;
+    position: absolute;
+    top: 5156px;
+    margin-left: 200px;
+}
+#sub{
+    width: 1021px;
+    height: 681px;
+    display: flex;
+    position: absolute;
+    top: 6700px;
+    margin-left: 100px;
+}
+
+p4{
+    font-size: 55px;
+    font-weight: 300;
+    font-family:fantasy;
+    top: 6900px;
+    color: white;
+    display: flex;
+    position: absolute;
+    margin-left: 80px;
+}
+
+#sub1{
+    width: 653px;
+    height: 395px;
+    display: flex;
+    position: absolute;
+    top: 8145px;
+    margin-left: -300px;
+}
+
+h2{
+    font-size: 30px;
+    font-family: serif;
+    
+    top: 8120px;
+    color: white;
+    display: flex;
+    position: absolute;
+    margin-left: 10px;
+}
+
+p5{
+    font-size: 20px;
+    font-family: serif;
+    line-height: 25px;
+    top: 8150px;
+    color: white;
+    display: flex;
+    position: absolute;
+    margin-left: 500px;
+}
+
+#sub2{
+    width: 653px;
+    height: 395px;
+    display: flex;
+    position: absolute;
+    top: 8620px;
+    margin-left: 500px;
+}
+
+p6{
+    font-size: 30px;
+    font-family: serif;
+    top: 8660px;
+    color: white;
+    display: flex;
+    position: absolute;
+    margin-left: 320px;
+
+}
+
+p7{
+    font-size: 20px;
+    font-family: serif;
+    top: 8660px;
+    color: white;
+    display: flex;
+    position: absolute;
+    margin-left: -300px;
+}
+
+p8{
+    font-size: 30px;
+    font-family: serif;
+    top: 9070px;
+    color: white;
+    display: flex;
+    position: absolute;
+    margin-left: -320px;
+
+}
+
+#sub3{
+    width: 653px;
+    height: 395px;
+    display: flex;
+    position: absolute;
+    top: 9072px;
+    margin-left: -320px;
+}
+
+p9{
+    font-size: 20px;
+    font-family: serif;
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 9450px;
+    margin-left: 360px;
+
+}
+
+#sub4{
+    width: 435px;
+    height: 645px;
+    display: flex;
+    position: absolute;
+    top: 9750px;
+    margin-left: 550px;
+}
+
+p10{
+    font-size: 30px;
+    font-family: serif;
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 9930px;
+    margin-left: 70px;
+
+}
+
+p11{
+    font-size: 20px;
+    font-family: serif;
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 9990px;
+    margin-left: -140px;
+
+}
+
+p12{
+    font-size: 30px;
+    font-family: serif;
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 10590px;
+    margin-left: 250px;
+
+}
+
+p13{
+    font-size: 20px;
+    font-family: serif;
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 10650px;
+    margin-left: 420px;
+
+}
+
+#sub5{
+    width: 572px;
+    height: 563px;
+    display: flex;
+    position: absolute;
+    top: 10450px;
+    margin-left: -300px;
+}
+
+p14{
+    font-size: 30px;
+    font-family: serif;
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 11130px;
+    margin-left: -200px;
+}
+
+p15{
+    font-size: 20px;
+
+    font-family: serif;
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 11200px;
+    margin-left: -343px;
+}
+
+#sub6{
+    width: 390px;
+    height: 290px;
+    display: flex;
+    position: absolute;
+    top: 11050px;
+    margin-left: 500px;
+}
+
+p16{
+    font-size: 30px;
+    font-family: serif;
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 11700px;
+    margin-left: 550px;
+}
+
+#sub7{
+    width: 390px;
+    height: 290px;
+    display: flex;
+    position: absolute;
+    top: 11430px;
+}
+
+#pieces{
+    width: 1000px;
+    height: 650px;
+    display: flex;
+    position: absolute;
+    top: 12300px;
+    margin-left: 100px;
+}
+
+
+#sub8{
+    width: 720px;
+    height: 1131px;
+    display: flex;
+    position: absolute;
+    top: 13300px;
+    margin-left: 530px;
+}
+
+#sub9{
+    width: 563px;
+    height: 604px;
+    display: flex;
+    position: absolute;
+    top: 14450px;
+    margin-left: -300px;
+}
+
+#sub10{
+    width: 504px;
+    height: 474px;
+    display: flex;
+    position: absolute;
+    top: 15100px;
+    margin-left: 550px;
+}
+
+#sub11{
+    width: 390px;
+    height: 939px;
+    display: flex;
+    position: absolute;
+    top: 15400px;
+    margin-left: -550px;
+}
+
+#sub12{
+    width: 550px;
+    height: 925px;
+    display: flex;
+    position: absolute;
+    top: 15900px;
+    margin-left: 550px;
+}
+
+.youtube{
+    width: 285px;
+    height: 197px;
+    display: flex;
+    position: absolute;
+    top: 17220px;
+    margin-left: 510px;
+}
+
+.youtube p{
+    color: white;
+    margin-left: 110px;
+ 
+}
+
+.insta{
+    width: 197px;
+    height: 197px;
+    display: flex;
+    position: absolute;
+    top: 17220px;
+    margin-left: -400px;
+}
+
+.insta p{
+    color: white;
+    margin-left: 60px;
+}
+footer{
+    background-color: #111;
+    height: auto;
+    width: 100%;
+    font-family: "Open Sans";
+    padding-top: 30px;
+    color: #fff;
+}
+
+.footer-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 0rem;
+}
+
+.footer-content p{
+    color: rgb(150, 39, 107);
+    max-width: 600px;
+    margin: 10px auto;
+    line-height: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 2rem;
+}
+.footer-content h4{
+    max-width: 500px;
+    padding: 10px;
+    line-height: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.footer-bottom{
+    background-color: rgb(32, 32, 32);
+    width: 100vw;
+}
+.footer-bottom p{
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+
